@@ -18,6 +18,7 @@ public class Main {
         userService.saveUser("Aldous", "Huxley", (byte) 55);
         System.out.println("User  с именем - Aldous бодавлен в базу данных");
         userService.getAllUsers();
+        userService.removeUserById(2);
         userService.cleanUsersTable();
         userService.dropUsersTable();
 
